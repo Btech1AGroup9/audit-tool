@@ -1,0 +1,14 @@
+[Unit]
+Description=System Security Audit Service
+After=network.target
+
+[Service]
+ExecStart=/home/shadrack/myporject/security_audit.sh
+WorkingDirectory=/home/shadrack/myproject
+type=simple
+User=shadrack
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
