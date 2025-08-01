@@ -1,5 +1,6 @@
+Starting audit...
 
-===Security Audit Report - 2025-08-01_16-27-16===
+===Security Audit Report - 2025-08-01_16-29-17===
 ===================================================
 
 [====Open Ports====]
@@ -135,50 +136,19 @@ shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: 2025-08-01_16-27-16
-Report Path: /home/shadrack/audit-tool/outputs/audit_report_2025-08-01_16-27-16.txt
+Report Generated at: 2025-08-01_16-29-17
+Report Path: /home/shadrack/audit-tool/outputs/audit_report_2025-08-01_16-29-17.txt
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Fri Aug  1 04:27:16 PM GMT 2025
+Sync started at: Fri Aug  1 04:29:17 PM GMT 2025
 sending incremental file list
-audit_report_2025-08-01_16-27-16.txt
+audit_report_2025-08-01_16-29-17.txt
 
-sent 6.47K bytes  received 35 bytes  13.01K bytes/sec
-total size is 6.33K  speedup is 0.97
-Cloud Sync Succeeded at: Fri Aug  1 04:27:16 PM GMT 2025
+sent 6.49K bytes  received 35 bytes  13.05K bytes/sec
+total size is 6.35K  speedup is 0.97
+Cloud Sync Succeeded at: Fri Aug  1 04:29:17 PM GMT 2025
 Report synced to 
 
 [======GitHub Sync Attempt======]
-GitHub Sync started at: Fri Aug  1 04:27:16 PM GMT 2025
-[master f1e0b7c] Security Audit Report 2025-08-01_16-27-16
- 19 files changed, 3181 insertions(+)
- create mode 100644 outputs/audit_report_2025-08-01_14-58-26.txt
- create mode 100644 outputs/audit_report_2025-08-01_14-59-41.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-10-25.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-13-50.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-17-50.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-22-01.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-24-40.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-29-27.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-33-46.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-50-20.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-53-33.txt
- create mode 100644 outputs/audit_report_2025-08-01_15-58-47.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-01-20.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-01-44.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-01-55.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-11-51.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-13-43.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-16-26.txt
- create mode 100644 outputs/audit_report_2025-08-01_16-27-16.txt
-fatal: The current branch master has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin master
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-GitHub sync failed at: Fri Aug  1 04:27:16 PM GMT 2025
-Check Git configuration and remote setup.
+GitHub Sync started at: Fri Aug  1 04:29:17 PM GMT 2025
