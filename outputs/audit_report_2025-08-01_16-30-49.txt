@@ -1,6 +1,6 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-01_16-29-17===
+===Security Audit Report - 2025-08-01_16-30-49===
 ===================================================
 
 [====Open Ports====]
@@ -136,32 +136,19 @@ shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: 2025-08-01_16-29-17
-Report Path: /home/shadrack/audit-tool/outputs/audit_report_2025-08-01_16-29-17.txt
+Report Generated at: 2025-08-01_16-30-49
+Report Path: /home/shadrack/audit-tool/outputs/audit_report_2025-08-01_16-30-49.txt
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Fri Aug  1 04:29:17 PM GMT 2025
+Sync started at: Fri Aug  1 04:30:49 PM GMT 2025
 sending incremental file list
-audit_report_2025-08-01_16-29-17.txt
+audit_report_2025-08-01_16-30-49.txt
 
 sent 6.49K bytes  received 35 bytes  13.05K bytes/sec
 total size is 6.35K  speedup is 0.97
-Cloud Sync Succeeded at: Fri Aug  1 04:29:17 PM GMT 2025
+Cloud Sync Succeeded at: Fri Aug  1 04:30:49 PM GMT 2025
 Report synced to 
 
 [======GitHub Sync Attempt======]
-GitHub Sync started at: Fri Aug  1 04:29:17 PM GMT 2025
-[master 7ab0f66] Security Audit Report 2025-08-01_16-29-17
- 2 files changed, 185 insertions(+)
- create mode 100644 outputs/audit_report_2025-08-01_16-29-17.txt
-fatal: The current branch master has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin master
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-GitHub sync failed at: Fri Aug  1 04:29:17 PM GMT 2025
-Check Git configuration and remote setup.
+GitHub Sync started at: Fri Aug  1 04:30:49 PM GMT 2025
