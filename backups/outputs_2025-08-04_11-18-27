@@ -1,6 +1,6 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-04_11-18-06===
+===Security Audit Report - 2025-08-04_11-18-27===
 ===================================================
 
 [====Open Ports====]
@@ -129,98 +129,11 @@ shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: Mon Aug  4 11:18:06 AM GMT 2025
-Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_11-18-06
-Audit completed at Mon Aug  4 11:18:06 AM GMT 2025
+Report Generated at: Mon Aug  4 11:18:27 AM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_11-18-27
+Audit completed at Mon Aug  4 11:18:27 AM GMT 2025
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Mon Aug  4 11:18:06 AM GMT 2025
+Sync started at: Mon Aug  4 11:18:27 AM GMT 2025
 sending incremental file list
-outputs_2025-08-04_11-18-06
-
-sent 5.64K bytes  received 35 bytes  11.36K bytes/sec
-total size is 5.51K  speedup is 0.97
-Cloud Sync Succeeded at: Mon Aug  4 11:18:06 AM GMT 2025
-Report synced to /home/shadrack/audit-tool/backups
-Audit Completed at: Mon Aug  4 11:18:06 AM GMT 2025
-======================================================
-
-[======GitHub Sync Attempt======]
-GitHub Sync started at: Mon Aug  4 11:18:06 AM GMT 2025
-[master c478413] Security Audit Report 2025-08-04_11-18-06
- 74 files changed, 13949 insertions(+), 83 deletions(-)
- create mode 100644 2025-08-03_01-56-08.txt
- create mode 100644 audit_report_timestamp.txt
- create mode 100644 backups/.txt
- create mode 100644 backups/2025-08-03_01-56-08.txt
- create mode 100644 backups/2025-08-04_06-06-32
- create mode 100644 backups/audit_report_2025-08-01_14-58-26.txt
- create mode 100644 backups/audit_report_2025-08-01_14-59-41.txt
- create mode 100644 backups/audit_report_2025-08-01_15-10-25.txt
- create mode 100644 backups/audit_report_2025-08-01_15-13-50.txt
- create mode 100644 backups/audit_report_2025-08-01_15-17-50.txt
- create mode 100644 backups/audit_report_2025-08-01_15-22-01.txt
- create mode 100644 backups/audit_report_2025-08-01_15-24-40.txt
- create mode 100644 backups/audit_report_2025-08-01_15-29-27.txt
- create mode 100644 backups/audit_report_2025-08-01_15-33-46.txt
- create mode 100644 backups/audit_report_2025-08-01_15-50-20.txt
- create mode 100644 backups/audit_report_2025-08-01_15-53-33.txt
- create mode 100644 backups/audit_report_2025-08-01_15-58-47.txt
- create mode 100644 backups/audit_report_2025-08-01_16-01-20.txt
- create mode 100644 backups/audit_report_2025-08-01_16-01-44.txt
- create mode 100644 backups/audit_report_2025-08-01_16-01-55.txt
- create mode 100644 backups/audit_report_2025-08-01_16-11-51.txt
- create mode 100644 backups/audit_report_2025-08-01_16-13-43.txt
- create mode 100644 backups/audit_report_2025-08-01_16-16-26.txt
- create mode 100644 backups/audit_report_2025-08-01_16-27-16.txt
- create mode 100644 backups/audit_report_2025-08-01_16-29-17.txt
- create mode 100644 backups/audit_report_2025-08-01_16-30-49.txt
- create mode 100644 backups/audit_report_2025-08-01_16-33-56.txt
- create mode 100644 backups/audit_report_2025-08-01_16-38-05.txt
- create mode 100644 backups/audit_report_2025-08-01_16-40-40.txt
- create mode 100644 backups/audit_report_2025-08-01_16-45-50.txt
- create mode 100644 backups/audit_report_2025-08-01_16-46-09.txt
- create mode 100644 backups/audit_report_2025-08-01_16-46-19.txt
- create mode 100644 backups/audit_report_2025-08-01_16-46-54.txt
- create mode 100644 backups/audit_report_2025-08-01_16-51-24.txt
- create mode 100644 backups/audit_report_2025-08-03_01-37-43.txt
- create mode 100644 backups/audit_report_2025-08-03_01-39-51.txt
- create mode 100644 backups/audit_report_2025-08-03_01-48-39.txt
- create mode 100644 backups/audit_report_2025-08-03_01-51-19.txt
- create mode 100644 backups/outputs_2025-08-04_06-10-08
- create mode 100644 backups/outputs_2025-08-04_06-13-13
- create mode 100644 backups/outputs_2025-08-04_06-39-46
- create mode 100644 backups/outputs_2025-08-04_06-42-40
- create mode 100644 backups/outputs_2025-08-04_07-50-08
- create mode 100644 backups/outputs_2025-08-04_08-04-26
- create mode 100644 backups/outputs_2025-08-04_08-10-19
- create mode 100644 backups/outputs_2025-08-04_09-55-40
- create mode 100644 backups/outputs_2025-08-04_09-59-54
- create mode 100644 backups/outputs_2025-08-04_10-25-48
- create mode 100644 backups/outputs_2025-08-04_10-57-46
- create mode 100644 backups/outputs_2025-08-04_10-58-13
- create mode 100644 backups/outputs_2025-08-04_11-18-06
- create mode 100644 backups/timestamp.txt
- create mode 100644 docs/project.readme
- create mode 100644 outputs/audit_report/audit_report_2025-08-01_12-08-17.txt
- create mode 100644 outputs/audit_report/audit_report_2025-08-01_12-08-50.txt
- create mode 100644 outputs/audit_report/audit_report_2025-08-01_12-26-06.txt
- create mode 100644 outputs/audit_report/audit_report_2025-08-01_12-33-23.txt
- create mode 100644 outputs/timestamp.txt
- create mode 100644 outputs_2025-08-04_06-10-08
- create mode 100644 outputs_2025-08-04_06-13-13
- create mode 100644 outputs_2025-08-04_06-39-46
- create mode 100644 outputs_2025-08-04_06-42-40
- create mode 100644 outputs_2025-08-04_07-50-08
- create mode 100644 outputs_2025-08-04_08-04-26
- create mode 100644 outputs_2025-08-04_08-10-19
- create mode 100644 outputs_2025-08-04_09-55-40
- create mode 100644 outputs_2025-08-04_09-59-54
- create mode 100644 outputs_2025-08-04_10-25-48
- create mode 100644 outputs_2025-08-04_10-57-46
- create mode 100644 outputs_2025-08-04_10-58-13
- create mode 100644 outputs_2025-08-04_11-18-06
- create mode 100755 scripts/security_audit.sh
- delete mode 100755 security_audit.sh
- rename system-auditor.service => services/system-auditor.service (57%)
