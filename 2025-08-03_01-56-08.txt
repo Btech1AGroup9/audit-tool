@@ -1,0 +1,13 @@
+[master 25249fc] Security Audit Report 2025-08-03_01-56-08
+ 1 file changed, 14 insertions(+)
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+GitHub sync failed at: Sun Aug  3 01:56:09 AM GMT 2025
+Check Git configuration and remote setup.
+Report successfully saved at 2025-08-03_01-56-08.txt

@@ -1,0 +1,431 @@
+Starting audit...
+
+===Security Audit Report - 2025-08-04_07-50-08===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:43537      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:45781         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+2025-08-04T02:42:49.880848+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-04T03:01:57.627013+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+Failed Login attempts recorded.
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+systemd-network: systemd-network : systemd-network
+systemd-timesync: systemd-timesync : systemd-timesync
+dhcpcd: dhcpcd : nogroup
+messagebus: messagebus : messagebus
+syslog: syslog : syslog adm
+systemd-resolve: systemd-resolve : systemd-resolve
+uuidd: uuidd : uuidd
+usbmux: usbmux : plugdev
+tss: tss : tss
+systemd-oom: systemd-oom : systemd-oom
+kernoops: kernoops : nogroup
+whoopsie: whoopsie : whoopsie
+dnsmasq: dnsmasq : nogroup
+avahi: avahi : avahi
+tcpdump: tcpdump : tcpdump
+sssd: sssd : sssd
+speech-dispatcher: speech-dispatcher : audio
+cups-pk-helper: cups-pk-helper : lpadmin
+fwupd-refresh: fwupd-refresh : fwupd-refresh
+saned: saned : saned scanner
+geoclue: geoclue : geoclue
+cups-browsed: cups-browsed : lpadmin
+hplip: hplip : lp
+gnome-remote-desktop: gnome-remote-desktop : gnome-remote-desktop
+polkitd: polkitd : polkitd
+rtkit: rtkit : rtkit
+colord: colord : colord
+gnome-initial-setup: gnome-initial-setup : nogroup
+gdm: gdm : gdm
+nm-openvpn: nm-openvpn : nm-openvpn
+shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+===================================================
+
+[======Audit Report Summary======]
+Report Generated at: Mon Aug  4 07:50:08 AM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_07-50-08
+Audit completed at Mon Aug  4 07:50:08 AM GMT 2025
+===================================================
+
+[======Cloud Sync======]
+Sync started at: Mon Aug  4 07:50:08 AM GMT 2025
+sending incremental file list
+outputs_2025-08-04_07-50-08
+
+sent 5.52K bytes  received 35 bytes  11.11K bytes/sec
+total size is 5.38K  speedup is 0.97
+Cloud Sync Succeeded at: Mon Aug  4 07:50:08 AM GMT 2025
+Report synced to /home/shadrack/audit-tool/backups
+Audit Completed at: Mon Aug  4 07:50:08 AM GMT 2025
+======================================================
+
+[======GitHub Sync Attempt======]
+GitHub Sync started at: Mon Aug  4 07:50:08 AM GMT 2025
+[master 885cf16] Security Audit Report 2025-08-04_07-50-08
+ 539 files changed, 147 insertions(+), 1936 deletions(-)
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/117258e64a3e7faddbab19b5ee8d4763.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/2f96fbd908459ef7c0d4c62c429bf81d.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/37103ace7b3c32ded5881782d35ef409.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/3febc821ee691082d042ecb009d98366.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/450aa93950977396749c26199b42676c.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/45728eedad674aad44fda208b8a52ad4.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/609c1c24a36ce4b83f63a562ff1931b7.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/74d34d1de210780ec05dad0e92c596e6.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/c7cd6deeb9ad3d2c9a2175bb7b8ba67e.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/d023895057d7fe4fb0c0357986cda2d3.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/d9fe086878b40e02c4b57291eb29f5b3.png
+ create mode 100644 .cache/thumbnails/fail/gnome-thumbnail-factory/f7e66e2997000df177d9196cdc914b4d.png
+ create mode 100644 snap/firefox/common/.cache/mesa_shader_cache/0d/02c1a822c1217330d4ca48cc8167b1ecfc757e
+ create mode 100644 snap/firefox/common/.cache/mesa_shader_cache/b5/3c9bf05f212f327fce0e5323b2bf16561b5ec2
+ create mode 100644 snap/firefox/common/.cache/mesa_shader_cache/cd/ca2c3edc28b8b01575395d8601fb0c4a6169b4
+ rename snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/{527787041 => 1457481064} (99%)
+ rename snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/{704772669 => 1786827695} (99%)
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/372635387
+ delete mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/76695921
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/001A17DC9CDC006632C3A63C334DFCF473E43B82
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/010DEE3E19667BD28DA888CC16D4F08B1B8B555C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/016505C74D900237239DEF55C12E5727E47A25CE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/016FAF87126211D7C51DE30F342A044A5DF50B08
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/02BAB3F7EE08A43D591206E87916536D96BD7320
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/02C7E3360CB5042031DB74381C3C330EA78D5D5D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/02D27A5AAF7028B530AE236EF4EE50CAD1699FB2
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/039B0CEEAD98EABA77AF7D675753F3C6B79B8475
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/03CBBDADA62C63BDB524908B642901ADBF77D7E3
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/04375408BC87431559F86A63834BA0E807E28A6C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/06545F7431D8D3684E1010CDBF7E6234FD908BF6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/06945E870D542F08D1CB6F3D001D577E17B2AAFF
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/06C8A5D945D24A576E367D43CC1E7E4ECDEC6C72
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/07FA07DA0C47A715A70C2AAE9A2D8FBF95AFC171
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0831E0AF570F404171B80EF19FFEE6A027679D91
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/089EC3E0227FCC3A1233889DF7BDBFA390D4D079
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0AE78DAF6483470627E4842632B32D63FF1A5DA5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0D15D161DF28951F8537527E1A3CAC690D781BB4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0E12C7AE5AB0571EC76A51453F1E932940CE1C2B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0E8318B66DB22182D4FC75CC135F9CC1A8274BDC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0F37FDAEB46F45207284687ED0018838CDE5D28A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/0F54BD05A1E36BA5EBCAD1F35813E222F2FD6620
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1088D54C64C5034AE42E37D3890EC91E1CBD0F2E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/12C2007B9449CF9A1499EEFFC8D7D42BAE9D5FE1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1393637AAE4AEC99F6FCC8C0BEBB0AB0AB19135F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1413140E1EFEED519717C09BBBC3439A5DF4700A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/143637B4BB1DECB85EE1AD06DB4C1DC98A908F5C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/148D08D774BC752DBAA0B9CE4D033B94FA3A38B5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/178614E20D1248E9DC334DFE92F0235F52DD2D9A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1891DC253B87AB4AB1DAEB7567C867ECEB556108
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/19C5435A9583F2BC05540398ED8058AB586C10DD
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/19E3C0ECA9B54E0C7E264A96EBFADF2612B439CE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1C7820E21921DD08E2A91C853FA6E1A7526C1ED7
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1D6A57150CA9C0881AB5836616F7426A3CD4CC7F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1D70D57A836DD552D8EED6B3DBA88C014AA15D28
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1D8595C6E12527A0F02F9E1FCA349D926791F16C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1F08EDB2844A32EFBF4E60342768A041B961D6DD
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1F82920FE3C27C654F370A085CD1EC460BBB664A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/1FD9EAD717B5D8279174D51BB0F8C52D685038CB
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2078A09899126B5D03A1F8C732F40EB8248DBE44
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/21ACB4C647E669BE02BB2D825A0A4BF003B0C262
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/21D938219E49E569D75A132ED6C9C492A7155926
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/22339FAA8F5C3CBC00A8B24E70A05E87E9AFAD1C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/22A23C05AE3D8F72002C5D31369B51C4D19C2E2C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/27EB9F3FA8D3FEAF5BEA16492544F628A929DC89
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2A56CC8348B79D087AD77EA96A67BC8EEFB1C35A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2A71D684FCDD4051943E8426E3CCA6EBAF0F1E63
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2B55C52AF1BA856A4C2ACA10B5C8BE28BC2FC9B6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2B634468E8E22500A7CC747EE316CBDF2C3170E5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2BBC7A6191B72D8B419B2FFD9163C87F6CDD88C3
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/2D64F4829C3BA04D2D8DCCB68E2E6E6DDBD56B11
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/30FB6F416778FBC9B49BA7D933343A7E64B2B683
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/31FCFDC9C514074EED679EABFD819A7925DF186F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/349EB1D91C91A49455664E86125FF019B78828F0
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3807C96690B772B54873B08C7129D8C67EBE30BC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3C749673AFD2D67C144AD8CE2C4260CBE305ABF6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3C82C000C42FF4E6D04F008DF75A53343673B81E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3C9B216E566C15F5E56BE063DA238E89EB5A0AAA
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3CC4E3D4B7A900F7B9D356868BD1279C22B742C0
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3CE5AF2AD11F042F0D14A808C442C4C48F877F6A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3D62D920FD2D59BEA769CC934E44D0F0AF4D27D6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3D6E05FC34339B084F426D20351E1C3370643086
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3D9FD5F29FC42D14D436BF63D1AA9F3BDDA04942
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3E12450A0CCF027178372123393525C95774F2B6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3E89DDB514D919B237FA698560B12BF97586FB81
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/3FBB7A00AE8B665876F381437C519F9C9FCB763E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/405ADF7D742B845AE57D1B226FB8C62DD0804845
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/40EE181488261D3680C7707A39B8B2001F0D9B66
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/41384F3D9A40A79E07D81FBDA8E4FA6916243D97
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/424BD2F16528F767823B714D7998653C1267550F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/42BDF6E513D7EB573C86409F3B1D1B2E0339969E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/43135E8112A9E740C65115936D33C3659062043D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4539BD724A0253F5BC0D9E33BE78094D094697E4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4549AABE6405EC2139AEA0A0D7705B54166BA9C8
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/45BEE2CEF757C9896925707C282C5DA48A83F9CE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/45CA9AB696EC7C7BCBA51087360C8F8F625CC3ED
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4867E80BBB08278451B81D8D1DF6B862F9DB8DBA
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/488F6CAFFC7D47AA242C6DD85E8D3C823F5AB306
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/48A05620B3FF824977A49DD9C6B212680D265126
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/499ADE4269EAD4D48970B8AFAA4C768DC2780897
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4A70D668995B3B726890D6F6A6756A51EA742577
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4B4DEBA48D0495F140FE4C9E5EBA063E7BE9FE34
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4BD004A383B0616ECF35771D3F2476AC7A048711
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/4C83D806AB4E9C25DD6788A16EEDB6F5116E3D3C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/523F4D7FF53538591521ACBD5EC5CB8569412D5D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/52B971C02AFD8E6A254D424E0DB540ABD5B1E3D2
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5392C7561DE9DB33D47A4C6E02ACF67CCEBEBE5B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/53DB1FFAA7EC8ADA5054E92EBFA7CD17207B77CB
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5441FCFA30BC7E292C090F8EE21E977C4ECA6B12
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/550044F5463894DE6C67C2F50ED0AF99D003A568
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/561FFE23D9ABB21017C01DD26DEC4810EF52731D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5647293C7272F48F25260CA91EF7A04DA8F0D448
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/569A42426C6457011BD1C934DF4751DBA2BF5978
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5738F0993307A9A2B36B40160FAB3AB50086A06A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5AEF39BDFF3AC3606F9D2E1F2BD8450B04609EB4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5B6F293C4FC5A56A975D1F827A2C419902307C1B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5CF2A12DA95BE1EF9247442D14040814C60C093A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5D468B4B572FDB1976E2577B0C93C3E7D700A46E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5E6FD7D0A5B85139C339CC8006AFF38E6FCB1144
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5EC493F3577F874A3E906CCFDEA456ED9D2AF4C8
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/5FFE088268E7F55D733A419FAA8FA947E618213A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/60AA202EA1576258947A68138B67D32314B43F78
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/61E3D29AEC3334A898561B6FBDA94DE6A4E053A1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/622BFDFEBC88C6B2BBC852E8926D1B47255C7453
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/62FED50F5066ECC89C2DBA2FD5827DD44D191802
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/631E8208199C10EF309FC09081D0A44E6BA4CA87
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/63561E4136F12EA8B6EFEFE437BD377B121C3CC0
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/652E4894F2AE154DA08E17BBE84A095D1C488B3D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/661259300794C7C2CD7622C84845BCBF878FC83E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6680E7B6D760DE0F74B381CE804F48D51C2ADC50
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6A89DDA50BD56115BE390C03FD171211E7440EB2
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6B66FCE88B9B4761F8E2EC336EDDBCF592E42139
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6B70E6CA24AC62AF67174133A36529A275D6E73D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6D86F2B54D74C251FE2F01D7805816C6200E5BAA
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6DA1C0E7638FE22263C0AAA8D090307203FAD3F1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6F077B2BB44571AE86E684B6D7189AC10D636733
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6F5B3236E52E43B9708B958C635591E90BEFA023
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6F93703B8D437D42B7E8D006A107A27795B6AF37
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/6FC386826BA49810F7CE4F96D45765D1228E90F6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/705DEB91917E5123F68284F5A1857BF674FE28F6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7170FC0CCB34F632D029E69DEACBD39F746F4A90
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7183B1F90A45A9162F8CFC591258282B59D23FFF
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/71BA3AC9185A381465E6D31C4BA803ECE1FA4A0E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/71C8A1891D5DFAB05B32081DA3330C9700599842
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/71DFA2C7D091318EBC55229AFC4132B70C629829
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/71FAA0945AC677ED2AE0731866C61635542749AB
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/724801E940D46F422CEF4D601D236B4028223AD6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/74B4D7467F7A320D5C1A0ED178701C27D9CC1190
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/75269A0240BB308F55E38D00A047F1EFB5255A2A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/758B1DABBA2612D021FA07BF19311D85FFC2D373
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/759B36645BE39522FDD9D57755FAE9DA77CB9477
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/760519B567A91CAC024599BBF2CF2E3F56F3FB7F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/78385A3542F12439703F5EA9F0A2AF166043F83F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/78A5456748BE198CF436F625A76BADAFDCAFCC0E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/78A8F9C82932000E2DF7BD6E0E6AA8FFD8BBD3AB
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/794F0949F4C7803BCC8F2C789E436F876CB83566
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7A8D3A9360CC37F0AD80962D4AEA72B6D0F0B2B3
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7AC74AACC5ACE23E1799216595A00FF518FDABAD
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7AE0A083F63CC5929F1F251BE7B89714746E26C7
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7BBE3B81CCC4F48BFD4065C27758BB9C16162BE9
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7DECC5C2401C5E6326C6B5AFE9121F9BCB2C7038
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7EB02EBD0484DCB63AAB3FE4CBA5C2CA260BD52A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/7EC84396F05E154118DE81A4B3A73247DE4D5517
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/807BA30D174B67D44F3CF0D0D303DF0759138C93
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/81C618073EA590506CB98497084306FBD0DA9A3E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/82000D8FB2489746F8913F252409AA60CDD6994F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/842CB6E886975CB1F9AD98CCBF927664A16C77B9
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/84468FC60006C9BEC52A0D4FE5B14A751BB4173E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/84C9FC972C7EFCCF58AE091A049B3D932BED6438
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/87C2BE17875272E3BABEC41335504CBBC3FCFD75
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8BFE987A0CBEC7CB5DE9BF87CFCC4389B9A17F08
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8C86843C79E720CD2C6CFCA62276D48A8E638DA4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8E0D31332FCBEF79A65DFB08749FE344949B15E6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8E49205899F2C9B5BA29BABC58A8958D09179516
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8E65E3733B1D1F6F0DF60D4BBF50FC19D7F208D2
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8EEE74045D5CD04071D0A9189731BF409BA885D1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/8F9F0DF2073D3862309D0335B9416F8624BCD739
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/905DEEEE7432F4332A599193A783BBFAFDB64FE3
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/90934F3B88B15A411A9E42F53825D7DDF20E409B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/916D823A561EFDFC941C3C6EB669BB1B54EFCF6A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/91E3F0E7DABA9DF6410E142078079AE2BD30C64D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/924D91CDAB2540F865B5CAD21D2D74092225A195
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/929FA2364D9EC07ACD9E49EE8BD53E41A9BE3438
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/93AB887C33D01BA4F6D87D5BCDE46571D01136D1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/950AFD0EF7F1E30C7D71B3AF94C647A18E7C1B0A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/95A8772285A4B8F66BB58FC046126D49881F60AD
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/95F7D965988D755A2D47E723A804E688AEE792CB
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/96549018F037406E1BA3A75F8FD84C27CFA93087
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/9712120CC15AB20A50CB50520CB6374732EEF985
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/98553F016C2E159C26843BE6AD39FB5A906327BE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/99724B5F411FB63BED4B20B3C77A98753FC5D057
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/997265791AD26D64C92443F080AD4F4152A48BE4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/9BAAAC23B7489C885DA6B847CA1C0784DEA21BE7
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/9BE4699FE781B9359861E12F91BF5337EEF973A5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/9C5140AEE78884F59945C2CE35EE30BC87640815
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/9CE9953618779B01052C2D5814461800A68E0729
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/A04ECF8108F19C05E46994D2B0AE021F1FF21B52
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/A064C7511265716ECB5FAD606A54C1F6CA071A89
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/A434A082B3FD581A6E0AE3937479884A52958500
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/A7E5D6403BD96C6D9F00FA6591C5C045D07886DC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/AB00E23945FE40F54620EF386A3898379F16D977
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/ACD23266F86806BD112AE906FA529C1CC34B61B6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/ACF30C7C2BA9BD09389D37FD50E7BCE5744E214D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/AF4D33D8C94B215FED0C63CC44E874765749D0B7
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B71CEDEF9FC6ECBDF45B9EC5132CFDBCC079B911
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B7671F0CDFE7C405802B6C88AA72F87A988FB10F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B7CDEDFE6F348F635FC572373430169F566033F3
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B8775A7794C0FFDDF8DCD24624BE880C8675A8C2
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B93476889242423580E4856DE76C3CDED05D445D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/BABEF1DD6FE565622C92EE360ABB90F09B671996
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/BDC707CBD0676619D5C017E73981EF0ABAB4550E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/C02B98B291DCAFBD79B0719CB9046B17620E5CA5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/C06570F82EB99292BD2333FAD89C5CA2536BD06D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/C55442531F7F1ACDE787D5588F712A1266512169
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/C7DA893B5EBC01F8657BFDC69B5F4D7C8207D369
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CBA1D4909626C3D314C8128200BC2AB104DC3834
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CBC46343B101CB12739094DE971D8FEBE2B1243F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CBFB5090B2E9EAC9262B30893753466F601521B4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CC7079D3EB8D2E66A21DB5DA8A758001ECEB9970
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CC84480B702F26B55991FDE22AC9CAE6F39B91D1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CCEBCC5310FB9781D5E188A49030599B4CBCF953
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CDD46DB4AADDD322E03194201325634A95F7D7EC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CE38614B8474973400E15221773AF08365B2E57A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CE5927A3ECE4A9206828BCDC56C8B4BB22C1B3C4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CEE1FE0B7E12DEB3FAF7FE8E18A2CC47DEDD3889
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/CFABDC9047C29AAC7C6BD2CF203DFB36B78ED7EE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D0ACBFDD2AF93AC7F47F37609EC03A4C2F800F62
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D307DFB08C1702539CCD3D11A88986BED00AEC11
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D3158141F1EE48E24630EEAF5B7AF3F26915ADA6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D3A4166F5108A24FB929FE6D0E741DA7E1BB010A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D3E8D31F228CA92D370421CF016B5DF98AB7CEFD
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D4BAD6B315709268789F05D83BBCC6155304910C
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D4E59F9755D8C4CCB244C74B70B427ADBBFC448D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D692FC9BBAF71B568E50B8DB624C7BC3631BC3E4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D794F29F0905E7A3DDB670B0451DD41FB2908139
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D7C1A8047ACE79711A36D3BEED7F3DF6F0A19678
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D841FA31BBA9248C92C9FCF6625FE8A7FD428B95
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/D95A9364016E5AB623C6D3DCCAB728C3C12284E1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/DB1AF9A47FB0137017E26459D8737D030F0248FE
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/DEF9A8056A0DB3B9360F58A50C43120539DA3124
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E016C6A45EC6FF95F013BDC1DD2CE33530A1BD7D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E1E387D184952E80DFE7FFDB69F67DFA28E448CC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E2D7FA6FAE52D560CD3A94433F3B146C75F4FB7B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E2E021B47D722F316186828CEFD5F712265FFB21
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E2ED0AB56DDB813FDD6A65A44B322E6E36044617
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E307C0FDA61B50AD6F20EDF0E1CC3CD52F60BAF4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E434D4B4924C23BB0EBF9C39997499C9C3047901
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E51D2C04E8145A0D5FEB9ABB255FE610F0257DC5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E628F03F541966C6C819718D7956109B156BEED1
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/E96A32681A024911D3EB745BCA6713C9EBAF1AF4
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/EA0F90BED57AB473F151BE82296680B9C6DB9A71
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/EB6C6382ABEB9A090FAC0EAC92226C7C436A7415
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F07B9DD49F50685BFA469A9B7B2053CCC472D123
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F0EC60E2FFDFACB4DAEE41530BA4F073B391BA6E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F0F9057FA19D3050A74FF26369D1CE2DA6A308CC
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F107A0B660D0F371A941FC41D33013A1BC60914F
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F118F85EC53C16441B9B4320ADBB4450333D15D5
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F289392885B27E7355B8ECDA83B3DD9BBCEAE539
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F4284EA4CB8EC6E1BA68580E4718C9A30547D71B
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F5395233A0D93D76380A65989E4ECBB34D789F5A
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F55611B22B77DA84698DEE8B16B49E18CED73B3E
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F56246C1439C868E704DB07A55C11AC06FED88B6
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F5686BEB3895225AE2FE19F1886A53D49865D29D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F5E5D8DFD440BF93F328E0670F24B3E427A4A0E7
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F62B462348BF4E5A80EAE459CC1269C886935120
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/F9BDC7269911AFC4AD52B218A2C3562BFCB49A66
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/FA4F090BF376AEB58CAE5DAE610531739661BB51
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/FCA51F8D9BBBD28BF0749AD7B2EFFC809E62DA6D
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/FF6BBB1774A8CA70F6F5DA59E2FB7CDD69FD553F
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/archived/2025-08/1754291908098.715ec74a-8180-4f4c-8577-c8b55b6c9e02.event.jsonlz4
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/archived/2025-08/1754291908107.66c19883-f761-4472-8501-87e83aac6b42.main.jsonlz4
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/signedInUser.json
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/storage-sync-v2.sqlite-shm
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/storage-sync-v2.sqlite-wal
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/storage/default/https+++accounts.firefox.com/.metadata-v2
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/storage/default/https+++accounts.firefox.com/ls/data.sqlite
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/storage/default/https+++accounts.firefox.com/ls/usage
+remote: invalid credentials
+fatal: Authentication failed for 'https://github.com/shaddie123/audit-tool.git/'
+GitHub sync failed at: Mon Aug  4 08:03:26 AM GMT 2025
+Check Git configuration and remote setup.

@@ -1,0 +1,15 @@
+# Automated Security Audit Tool
+
+# Overview
+This script checks open ports, failed login attempts, and user permissions with an optional cloud sync to Github.com
+
+# Files and Structure
+- `scripts/security_audit.sh`: Main audit script
+- `docs/audit_report_<timestamp>.txt`: Auto-generated reports
+- `docs/project.readme`: Documentation
+- `security-audit.service`: Systemd for automation
+
+# Usage
+```bash
+bash ~/myproject/scripts/security_audit.sh
+

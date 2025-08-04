@@ -3,11 +3,13 @@ Description=System Security Audit Service
 After=network.target
 
 [Service]
-ExecStart=/home/shadrack/myporject/security_audit.sh
+ExecStart=/home/shadrack/myproject/security_audit.sh
 WorkingDirectory=/home/shadrack/myproject
 type=simple
 User=shadrack
 Restart=on-failure
+StandardOutput=append:/var/log/security_audit.log
+StandardError=append:?var/log/security_audit.log
 
 [Install]
 WantedBy=multi-user.target

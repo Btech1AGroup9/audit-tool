@@ -1,0 +1,144 @@
+
+===Security Audit Report - 2025-08-01_14-58-26===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:37271      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0               [::]:53991         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+2025-07-28T18:17:43.472235+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-28T19:02:12.299999+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-29T13:06:20.034691+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-29T20:42:47.684243+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-30T02:36:39.401645+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-31T11:43:50.813074+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-31T12:25:46.951127+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-31T22:32:22.233581+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-31T23:32:25.712210+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-01T05:44:21.390587+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+Failed Login attempts recorded.
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+systemd-network: systemd-network : systemd-network
+systemd-timesync: systemd-timesync : systemd-timesync
+dhcpcd: dhcpcd : nogroup
+messagebus: messagebus : messagebus
+syslog: syslog : syslog adm
+systemd-resolve: systemd-resolve : systemd-resolve
+uuidd: uuidd : uuidd
+usbmux: usbmux : plugdev
+tss: tss : tss
+systemd-oom: systemd-oom : systemd-oom
+kernoops: kernoops : nogroup
+whoopsie: whoopsie : whoopsie
+dnsmasq: dnsmasq : nogroup
+avahi: avahi : avahi
+tcpdump: tcpdump : tcpdump
+sssd: sssd : sssd
+speech-dispatcher: speech-dispatcher : audio
+cups-pk-helper: cups-pk-helper : lpadmin
+fwupd-refresh: fwupd-refresh : fwupd-refresh
+saned: saned : saned scanner
+geoclue: geoclue : geoclue
+cups-browsed: cups-browsed : lpadmin
+hplip: hplip : lp
+gnome-remote-desktop: gnome-remote-desktop : gnome-remote-desktop
+polkitd: polkitd : polkitd
+rtkit: rtkit : rtkit
+colord: colord : colord
+gnome-initial-setup: gnome-initial-setup : nogroup
+gdm: gdm : gdm
+nm-openvpn: nm-openvpn : nm-openvpn
+shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+===================================================
+
+[======Audit Report Summary======]
+Report Generated at: 2025-08-01_14-58-26
+Report Path: /home/shadrack/audit-tool/outputs/audit_report_2025-08-01_14-58-26.txt
+
+
+[======Cloud Sync======]
+Sync started at: Fri Aug  1 02:58:26 PM GMT 2025
+sending incremental file list

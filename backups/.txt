@@ -1,0 +1,573 @@
+Starting audit...
+
+===Security Audit Report - 2025-08-03_03-07-11===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:43128      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:39620         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+Could not access /var/log/auth.log.
+===============================================
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+Starting audit...
+
+===Security Audit Report - 2025-08-04_05-44-07===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:43537      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:45781         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+2025-08-04T02:42:49.880848+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-04T03:01:57.627013+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+Failed Login attempts recorded.
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+systemd-network: systemd-network : systemd-network
+systemd-timesync: systemd-timesync : systemd-timesync
+dhcpcd: dhcpcd : nogroup
+messagebus: messagebus : messagebus
+syslog: syslog : syslog adm
+systemd-resolve: systemd-resolve : systemd-resolve
+uuidd: uuidd : uuidd
+usbmux: usbmux : plugdev
+tss: tss : tss
+systemd-oom: systemd-oom : systemd-oom
+kernoops: kernoops : nogroup
+whoopsie: whoopsie : whoopsie
+dnsmasq: dnsmasq : nogroup
+avahi: avahi : avahi
+tcpdump: tcpdump : tcpdump
+sssd: sssd : sssd
+speech-dispatcher: speech-dispatcher : audio
+cups-pk-helper: cups-pk-helper : lpadmin
+fwupd-refresh: fwupd-refresh : fwupd-refresh
+saned: saned : saned scanner
+geoclue: geoclue : geoclue
+cups-browsed: cups-browsed : lpadmin
+hplip: hplip : lp
+gnome-remote-desktop: gnome-remote-desktop : gnome-remote-desktop
+polkitd: polkitd : polkitd
+rtkit: rtkit : rtkit
+colord: colord : colord
+gnome-initial-setup: gnome-initial-setup : nogroup
+gdm: gdm : gdm
+nm-openvpn: nm-openvpn : nm-openvpn
+shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+===================================================
+
+[======Audit Report Summary======]
+Report Generated at: Mon Aug  4 05:44:07 AM GMT 2025
+Report Path: .txt
+Audit completed at Mon Aug  4 05:44:07 AM GMT 2025
+===================================================
+
+[======Cloud Sync======]
+Sync started at: Mon Aug  4 05:44:07 AM GMT 2025
+sending incremental file list
+.txt
+
+sent 9.16K bytes  received 35 bytes  18.40K bytes/sec
+total size is 9.05K  speedup is 0.98
+Cloud Sync Succeeded at: Mon Aug  4 05:44:07 AM GMT 2025
+Report synced to /home/shadrack/audit-tool/backups
+Audit Completed at: Mon Aug  4 05:44:07 AM GMT 2025
+======================================================
+
+[======GitHub Sync Attempt======]
+GitHub Sync started at: Mon Aug  4 05:44:07 AM GMT 2025
+[master 4216728] Security Audit Report 2025-08-04_05-44-07
+ 54 files changed, 214 insertions(+), 57 deletions(-)
+ rename .local/share/gvfs-metadata/{home-cdd0fff7.log => home-8a0a1419.log} (99%)
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/1389233957
+ rename snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/doomed/{1083633629 => 554684745} (99%)
+ delete mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/entries/B7C8C6FC53C2C4F26BFE0258F4054307F59A9769
+ create mode 100644 snap/firefox/common/.cache/mozilla/firefox/isg77t0x.default/cache2/index.log
+ delete mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/aborted-session-ping
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/archived/2025-08/1754286184528.14665fcb-d669-4331-ba03-790a81c47f82.event.jsonlz4
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/archived/2025-08/1754286184551.270953ed-1da5-4116-9865-450b05303d56.main.jsonlz4
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/glean/events/events
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/glean/pending_pings/0ea6a2b2-ed2e-493b-935d-7deea7ed5d46
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/datareporting/glean/pending_pings/d676a212-a1b2-4cba-b004-e551705a4b53
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/saved-telemetry-pings/14665fcb-d669-4331-ba03-790a81c47f82
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/saved-telemetry-pings/270953ed-1da5-4116-9865-450b05303d56
+ delete mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/sessionstore-backups/recovery.baklz4
+ delete mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/sessionstore-backups/recovery.jsonlz4
+ create mode 100644 snap/firefox/common/.mozilla/firefox/isg77t0x.default/sessionstore.jsonlz4
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+GitHub sync failed at: Mon Aug  4 05:44:08 AM GMT 2025
+Check Git configuration and remote setup.
+Starting audit...
+
+===Security Audit Report - 2025-08-04_05-53-22===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:43537      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:45781         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+2025-08-04T02:42:49.880848+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-04T03:01:57.627013+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+Failed Login attempts recorded.
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+systemd-network: systemd-network : systemd-network
+systemd-timesync: systemd-timesync : systemd-timesync
+dhcpcd: dhcpcd : nogroup
+messagebus: messagebus : messagebus
+syslog: syslog : syslog adm
+systemd-resolve: systemd-resolve : systemd-resolve
+uuidd: uuidd : uuidd
+usbmux: usbmux : plugdev
+tss: tss : tss
+systemd-oom: systemd-oom : systemd-oom
+kernoops: kernoops : nogroup
+whoopsie: whoopsie : whoopsie
+dnsmasq: dnsmasq : nogroup
+avahi: avahi : avahi
+tcpdump: tcpdump : tcpdump
+sssd: sssd : sssd
+speech-dispatcher: speech-dispatcher : audio
+cups-pk-helper: cups-pk-helper : lpadmin
+fwupd-refresh: fwupd-refresh : fwupd-refresh
+saned: saned : saned scanner
+geoclue: geoclue : geoclue
+cups-browsed: cups-browsed : lpadmin
+hplip: hplip : lp
+gnome-remote-desktop: gnome-remote-desktop : gnome-remote-desktop
+polkitd: polkitd : polkitd
+rtkit: rtkit : rtkit
+colord: colord : colord
+gnome-initial-setup: gnome-initial-setup : nogroup
+gdm: gdm : gdm
+nm-openvpn: nm-openvpn : nm-openvpn
+shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+===================================================
+
+[======Audit Report Summary======]
+Report Generated at: Mon Aug  4 05:53:22 AM GMT 2025
+Report Path: .txt
+Audit completed at Mon Aug  4 05:53:22 AM GMT 2025
+===================================================
+
+[======Cloud Sync======]
+Sync started at: Mon Aug  4 05:53:22 AM GMT 2025
+sending incremental file list
+.txt
+
+sent 17.29K bytes  received 35 bytes  34.65K bytes/sec
+total size is 17.18K  speedup is 0.99
+Cloud Sync Succeeded at: Mon Aug  4 05:53:22 AM GMT 2025
+Report synced to /home/shadrack/audit-tool/backups
+Audit Completed at: Mon Aug  4 05:53:22 AM GMT 2025
+======================================================
+
+[======GitHub Sync Attempt======]
+GitHub Sync started at: Mon Aug  4 05:53:22 AM GMT 2025
+[master 6159446] Security Audit Report 2025-08-04_05-53-22
+ 2 files changed, 181 insertions(+), 3 deletions(-)
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+GitHub sync failed at: Mon Aug  4 05:53:22 AM GMT 2025
+Check Git configuration and remote setup.
+Starting audit...
+
+===Security Audit Report - 2025-08-04_05-54-46===
+===================================================
+
+[====Open Ports====]
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:43537      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:45781         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+Open Ports retrieved successfully.
+
+[====Failed Logins====]
+2025-08-04T02:42:49.880848+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-04T03:01:57.627013+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+Failed Login attempts recorded.
+
+[====User Permissions====]
+0 -> UID: root, Shell: /bin/bash
+1 -> UID: daemon, Shell: /usr/sbin/nologin
+2 -> UID: bin, Shell: /usr/sbin/nologin
+3 -> UID: sys, Shell: /usr/sbin/nologin
+4 -> UID: sync, Shell: /bin/sync
+5 -> UID: games, Shell: /usr/sbin/nologin
+6 -> UID: man, Shell: /usr/sbin/nologin
+7 -> UID: lp, Shell: /usr/sbin/nologin
+8 -> UID: mail, Shell: /usr/sbin/nologin
+9 -> UID: news, Shell: /usr/sbin/nologin
+10 -> UID: uucp, Shell: /usr/sbin/nologin
+13 -> UID: proxy, Shell: /usr/sbin/nologin
+33 -> UID: www-data, Shell: /usr/sbin/nologin
+34 -> UID: backup, Shell: /usr/sbin/nologin
+38 -> UID: list, Shell: /usr/sbin/nologin
+39 -> UID: irc, Shell: /usr/sbin/nologin
+42 -> UID: _apt, Shell: /usr/sbin/nologin
+65534 -> UID: nobody, Shell: /usr/sbin/nologin
+998 -> UID: systemd-network, Shell: /usr/sbin/nologin
+996 -> UID: systemd-timesync, Shell: /usr/sbin/nologin
+100 -> UID: dhcpcd, Shell: /bin/false
+101 -> UID: messagebus, Shell: /usr/sbin/nologin
+102 -> UID: syslog, Shell: /usr/sbin/nologin
+991 -> UID: systemd-resolve, Shell: /usr/sbin/nologin
+103 -> UID: uuidd, Shell: /usr/sbin/nologin
+104 -> UID: usbmux, Shell: /usr/sbin/nologin
+105 -> UID: tss, Shell: /bin/false
+990 -> UID: systemd-oom, Shell: /usr/sbin/nologin
+106 -> UID: kernoops, Shell: /usr/sbin/nologin
+107 -> UID: whoopsie, Shell: /bin/false
+999 -> UID: dnsmasq, Shell: /usr/sbin/nologin
+108 -> UID: avahi, Shell: /usr/sbin/nologin
+109 -> UID: tcpdump, Shell: /usr/sbin/nologin
+110 -> UID: sssd, Shell: /usr/sbin/nologin
+111 -> UID: speech-dispatcher, Shell: /bin/false
+112 -> UID: cups-pk-helper, Shell: /usr/sbin/nologin
+989 -> UID: fwupd-refresh, Shell: /usr/sbin/nologin
+113 -> UID: saned, Shell: /usr/sbin/nologin
+114 -> UID: geoclue, Shell: /usr/sbin/nologin
+115 -> UID: cups-browsed, Shell: /usr/sbin/nologin
+116 -> UID: hplip, Shell: /bin/false
+988 -> UID: gnome-remote-desktop, Shell: /usr/sbin/nologin
+987 -> UID: polkitd, Shell: /usr/sbin/nologin
+117 -> UID: rtkit, Shell: /usr/sbin/nologin
+118 -> UID: colord, Shell: /usr/sbin/nologin
+119 -> UID: gnome-initial-setup, Shell: /bin/false
+120 -> UID: gdm, Shell: /bin/false
+121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
+1000 -> UID: shadrack, Shell: /bin/bash
+User Permission Data gathered.
+
+[====Group Memberships====]
+List of group memberships.
+root: root : root
+daemon: daemon : daemon
+bin: bin : bin
+sys: sys : sys
+sync: sync : nogroup
+games: games : games
+man: man : man
+lp: lp : lp
+mail: mail : mail
+news: news : news
+uucp: uucp : uucp
+proxy: proxy : proxy
+www-data: www-data : www-data
+backup: backup : backup
+list: list : list
+irc: irc : irc
+_apt: _apt : nogroup
+nobody: nobody : nogroup
+systemd-network: systemd-network : systemd-network
+systemd-timesync: systemd-timesync : systemd-timesync
+dhcpcd: dhcpcd : nogroup
+messagebus: messagebus : messagebus
+syslog: syslog : syslog adm
+systemd-resolve: systemd-resolve : systemd-resolve
+uuidd: uuidd : uuidd
+usbmux: usbmux : plugdev
+tss: tss : tss
+systemd-oom: systemd-oom : systemd-oom
+kernoops: kernoops : nogroup
+whoopsie: whoopsie : whoopsie
+dnsmasq: dnsmasq : nogroup
+avahi: avahi : avahi
+tcpdump: tcpdump : tcpdump
+sssd: sssd : sssd
+speech-dispatcher: speech-dispatcher : audio
+cups-pk-helper: cups-pk-helper : lpadmin
+fwupd-refresh: fwupd-refresh : fwupd-refresh
+saned: saned : saned scanner
+geoclue: geoclue : geoclue
+cups-browsed: cups-browsed : lpadmin
+hplip: hplip : lp
+gnome-remote-desktop: gnome-remote-desktop : gnome-remote-desktop
+polkitd: polkitd : polkitd
+rtkit: rtkit : rtkit
+colord: colord : colord
+gnome-initial-setup: gnome-initial-setup : nogroup
+gdm: gdm : gdm
+nm-openvpn: nm-openvpn : nm-openvpn
+shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+===================================================
+
+[======Audit Report Summary======]
+Report Generated at: Mon Aug  4 05:54:46 AM GMT 2025
+Report Path: .txt
+Audit completed at Mon Aug  4 05:54:46 AM GMT 2025
+===================================================
+
+[======Cloud Sync======]
+Sync started at: Mon Aug  4 05:54:46 AM GMT 2025
+sending incremental file list
