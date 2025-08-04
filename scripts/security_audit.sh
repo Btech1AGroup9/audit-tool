@@ -86,8 +86,7 @@ echo -e "\nCloud Sync Succeeded at: $(date)"
 echo -e "\n[======GitHub Sync Attempt======]" >> "$report_file"
 echo "GitHub Sync started at: $(date)" >> "$report_file"
 git add . >> "$report_file" 2>&1
-commit_message="Security Audit Report $timestamp"
-git commit -m "$commit_message" >> "$report_file" 2>&1
+git commit -m "Automatic sync" >> "$report_file" 2>&1
 if git push -u origin master >> "$report_file" 2>&1; then
 echo -e "\nGitHub sync succeeded at: $(date)"
 echo "GitHub sync succeeded at: $(date)" >> "$report_file"

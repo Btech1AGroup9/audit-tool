@@ -1,6 +1,6 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-04_11:51:51===
+===Security Audit Report - 2025-08-04_12:28:25===
 ===================================================
 
 [====Open Ports====]
@@ -129,33 +129,11 @@ shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: Mon Aug  4 11:51:51 AM GMT 2025
-Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_11:51:51
-Audit completed at Mon Aug  4 11:51:51 AM GMT 2025
+Report Generated at: Mon Aug  4 12:28:26 PM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_12:28:25
+Audit completed at Mon Aug  4 12:28:26 PM GMT 2025
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Mon Aug  4 11:51:51 AM GMT 2025
+Sync started at: Mon Aug  4 12:28:26 PM GMT 2025
 sending incremental file list
-outputs_2025-08-04_11:51:51
-
-sent 5.64K bytes  received 35 bytes  11.36K bytes/sec
-total size is 5.51K  speedup is 0.97
-Cloud Sync Succeeded at: Mon Aug  4 11:51:52 AM GMT 2025
-Report synced to /home/shadrack/audit-tool/backups
-Audit Completed at: Mon Aug  4 11:51:52 AM GMT 2025
-======================================================
-
-[======GitHub Sync Attempt======]
-GitHub Sync started at: Mon Aug  4 11:51:52 AM GMT 2025
-[master 80b4b8d] Security Audit Report 2025-08-04_11:51:51
- 4 files changed, 301 insertions(+), 1 deletion(-)
- create mode 100644 backups/outputs_2025-08-04_11:51:51
- create mode 100644 outputs_2025-08-04_11:51:51
-ssh: Could not resolve hostname github.com: Temporary failure in name resolution
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-GitHub sync failed at: Mon Aug  4 11:51:52 AM GMT 2025
-Check Git configuration and remote setup.
