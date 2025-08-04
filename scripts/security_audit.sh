@@ -79,7 +79,7 @@ echo "Report file remains at: $report_file" >> "$report_file"
 fi
 echo "Audit Completed at: $(date)" >> "$report_file"
 echo "======================================================" >> "$report_file"
-echo "Cloud Sync Succeeded at: $(date)" 
+echo -e "\nCloud Sync Succeeded at: $(date)" 
 
 
 #GitHub Sync Attempt
@@ -89,7 +89,7 @@ git add . >> "$report_file" 2>&1
 commit_message="Security Audit Report $timestamp"
 git commit -m "$commit_message" >> "$report_file" 2>&1
 if git push -u origin master >> "$report_file" 2>&1; then
-echo "GitHub sync succeeded at: $(date)"
+echo -e "\nGitHub sync succeeded at: $(date)"
 echo "GitHub sync succeeded at: $(date)" >> "$report_file"
 echo "Report synced to: git@github.com:shaddie123/audit-tool.git" >> "$report_file"
 else
@@ -97,5 +97,5 @@ echo "GitHub sync failed at: $(date)"
 echo "GitHub sync failed at: $(date)" >> "$report_file"
 echo "Check Git configuration and remote setup." >> "$report_file"
 fi
-echo "Report successfully saved at $report_file"
+echo -e "\nReport successfully saved at $report_file"
 
