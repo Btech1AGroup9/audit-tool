@@ -3,7 +3,7 @@
 #Report Timestamp
 base_dir="$HOME/audit-tool"
 cloud_backup="$base_dir/backups"
-timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+timestamp=$(date '+%Y-%m-%d_%H:%M:%S')
 audit_report="$base_dir/outputs"
 report_file="$base_dir/outputs_$timestamp"
 
