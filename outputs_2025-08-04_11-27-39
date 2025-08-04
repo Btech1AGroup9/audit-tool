@@ -1,6 +1,6 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-04_11-18-27===
+===Security Audit Report - 2025-08-04_11-27-39===
 ===================================================
 
 [====Open Ports====]
@@ -129,33 +129,22 @@ shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: Mon Aug  4 11:18:27 AM GMT 2025
-Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_11-18-27
-Audit completed at Mon Aug  4 11:18:27 AM GMT 2025
+Report Generated at: Mon Aug  4 11:27:39 AM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_11-27-39
+Audit completed at Mon Aug  4 11:27:39 AM GMT 2025
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Mon Aug  4 11:18:27 AM GMT 2025
+Sync started at: Mon Aug  4 11:27:39 AM GMT 2025
 sending incremental file list
-outputs_2025-08-04_11-18-27
+outputs_2025-08-04_11-27-39
 
 sent 5.64K bytes  received 35 bytes  11.36K bytes/sec
 total size is 5.51K  speedup is 0.97
-Cloud Sync Succeeded at: Mon Aug  4 11:18:27 AM GMT 2025
+Cloud Sync Succeeded at: Mon Aug  4 11:27:39 AM GMT 2025
 Report synced to /home/shadrack/audit-tool/backups
-Audit Completed at: Mon Aug  4 11:18:27 AM GMT 2025
+Audit Completed at: Mon Aug  4 11:27:39 AM GMT 2025
 ======================================================
 
 [======GitHub Sync Attempt======]
-GitHub Sync started at: Mon Aug  4 11:18:27 AM GMT 2025
-[master 679fb3f] Security Audit Report 2025-08-04_11-18-27
- 3 files changed, 365 insertions(+)
- create mode 100644 backups/outputs_2025-08-04_11-18-27
- create mode 100644 outputs_2025-08-04_11-18-27
-ssh: Could not resolve hostname github.com: Temporary failure in name resolution
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-GitHub sync failed at: Mon Aug  4 11:18:27 AM GMT 2025
-Check Git configuration and remote setup.
+GitHub Sync started at: Mon Aug  4 11:27:39 AM GMT 2025
