@@ -1,19 +1,21 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-04_13:57:19===
+===Security Audit Report - 2025-08-06_03:13:49===
 ===================================================
 
 [====Open Ports====]
 Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
 udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
 udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
-udp   UNCONN 0      0            0.0.0.0:50140      0.0.0.0:*          
 udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:58796      0.0.0.0:*          
 udp   UNCONN 0      0               [::]:5353          [::]:*          
-udp   UNCONN 0      0               [::]:60872         [::]:*          
-tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0               [::]:42730         [::]:*          
 tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          
 tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096            [::]:22            [::]:*          
 tcp   LISTEN 0      4096           [::1]:631           [::]:*          
 Open Ports retrieved successfully.
 
@@ -21,6 +23,10 @@ Open Ports retrieved successfully.
 2025-08-04T02:42:49.880848+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
 2025-08-04T03:01:57.627013+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
 2025-08-04T10:10:57.219771+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-04T16:37:34.422605+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-05T02:25:12.461404+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-05T11:34:18.102324+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
+2025-08-06T01:55:30.143709+00:00 shadrack-ThinkPad-E580 gdm-password]: gkr-pam: stashed password to try later in open session
 Failed Login attempts recorded.
 
 [====User Permissions====]
@@ -73,6 +79,7 @@ Failed Login attempts recorded.
 120 -> UID: gdm, Shell: /bin/false
 121 -> UID: nm-openvpn, Shell: /usr/sbin/nologin
 1000 -> UID: shadrack, Shell: /bin/bash
+122 -> UID: sshd, Shell: /usr/sbin/nologin
 User Permission Data gathered.
 
 [====Group Memberships====]
@@ -126,40 +133,26 @@ gnome-initial-setup: gnome-initial-setup : nogroup
 gdm: gdm : gdm
 nm-openvpn: nm-openvpn : nm-openvpn
 shadrack: shadrack : shadrack adm cdrom sudo dip plugdev users lpadmin
+sshd: sshd : nogroup
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: Mon Aug  4 01:57:19 PM GMT 2025
-Report Path: /home/shadrack/audit-tool/outputs_2025-08-04_13:57:19
-Audit completed at Mon Aug  4 01:57:19 PM GMT 2025
+Report Generated at: Wed Aug  6 03:13:49 AM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-06_03:13:49
+Audit completed at Wed Aug  6 03:13:49 AM GMT 2025
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Mon Aug  4 01:57:19 PM GMT 2025
+Sync started at: Wed Aug  6 03:13:49 AM GMT 2025
 sending incremental file list
-outputs_2025-08-04_13:57:19
+outputs_2025-08-06_03:13:49
 
-sent 5.64K bytes  received 35 bytes  11.36K bytes/sec
-total size is 5.51K  speedup is 0.97
-Cloud Sync Succeeded at: Mon Aug  4 01:57:19 PM GMT 2025
+sent 6.36K bytes  received 35 bytes  12.78K bytes/sec
+total size is 6.22K  speedup is 0.97
+Cloud Sync Succeeded at: Wed Aug  6 03:13:49 AM GMT 2025
 Report synced to /home/shadrack/audit-tool/backups
-Audit Completed at: Mon Aug  4 01:57:19 PM GMT 2025
+Audit Completed at: Wed Aug  6 03:13:49 AM GMT 2025
 ======================================================
 
 [======GitHub Sync Attempt======]
-GitHub Sync started at: Mon Aug  4 01:57:19 PM GMT 2025
-[master 1ff9c5e] Automatic sync
- 10 files changed, 1183 insertions(+), 2 deletions(-)
- create mode 100644 backups/outputs_2025-08-04_12:28:25
- create mode 100644 backups/outputs_2025-08-04_12:38:37
- create mode 100644 backups/outputs_2025-08-04_13:50:01
- create mode 100644 backups/outputs_2025-08-04_13:57:19
- create mode 100644 outputs_2025-08-04_12:28:25
- create mode 100644 outputs_2025-08-04_12:38:37
- create mode 100644 outputs_2025-08-04_13:50:01
- create mode 100644 outputs_2025-08-04_13:57:19
-To github.com:shaddie123/audit-tool.git
-   3d3ffe9..1ff9c5e  master -> master
-branch 'master' set up to track 'origin/master'.
-GitHub sync succeeded at: Mon Aug  4 01:57:23 PM GMT 2025
-Report synced to: git@github.com:shaddie123/audit-tool.git
+GitHub Sync started at: Wed Aug  6 03:13:49 AM GMT 2025
