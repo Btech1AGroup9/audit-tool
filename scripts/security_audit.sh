@@ -90,7 +90,7 @@ git commit -m "Automatic sync" >> "$report_file" 2>&1
 if git push -u origin master >> "$report_file" 2>&1; then
 echo -e "\nGitHub sync succeeded at: $(date)"
 echo "GitHub sync succeeded at: $(date)" >> "$report_file"
-echo "Report synced to: git@github.com:shaddie123/audit-tool.git" >> "$report_file"
+echo "Report synced to: git@github.com:Btech1AGroup9/audit-tool.git" >> "$report_file"
 else
 echo "GitHub sync failed at: $(date)"
 echo "GitHub sync failed at: $(date)" >> "$report_file"

@@ -1,6 +1,6 @@
 Starting audit...
 
-===Security Audit Report - 2025-08-06_03:13:49===
+===Security Audit Report - 2025-08-06_03:17:30===
 ===================================================
 
 [====Open Ports====]
@@ -137,31 +137,11 @@ sshd: sshd : nogroup
 ===================================================
 
 [======Audit Report Summary======]
-Report Generated at: Wed Aug  6 03:13:49 AM GMT 2025
-Report Path: /home/shadrack/audit-tool/outputs_2025-08-06_03:13:49
-Audit completed at Wed Aug  6 03:13:49 AM GMT 2025
+Report Generated at: Wed Aug  6 03:17:31 AM GMT 2025
+Report Path: /home/shadrack/audit-tool/outputs_2025-08-06_03:17:30
+Audit completed at Wed Aug  6 03:17:31 AM GMT 2025
 ===================================================
 
 [======Cloud Sync======]
-Sync started at: Wed Aug  6 03:13:49 AM GMT 2025
+Sync started at: Wed Aug  6 03:17:31 AM GMT 2025
 sending incremental file list
-outputs_2025-08-06_03:13:49
-
-sent 6.36K bytes  received 35 bytes  12.78K bytes/sec
-total size is 6.22K  speedup is 0.97
-Cloud Sync Succeeded at: Wed Aug  6 03:13:49 AM GMT 2025
-Report synced to /home/shadrack/audit-tool/backups
-Audit Completed at: Wed Aug  6 03:13:49 AM GMT 2025
-======================================================
-
-[======GitHub Sync Attempt======]
-GitHub Sync started at: Wed Aug  6 03:13:49 AM GMT 2025
-[master 47c5150] Automatic sync
- 3 files changed, 320 insertions(+)
- create mode 100644 backups/outputs_2025-08-06_03:13:49
- create mode 100644 outputs_2025-08-06_03:13:49
-To github.com:Btech1AGroup9/audit-tool.git
-   1ff9c5e..47c5150  master -> master
-branch 'master' set up to track 'origin/master'.
-GitHub sync succeeded at: Wed Aug  6 03:13:54 AM GMT 2025
-Report synced to: git@github.com:shaddie123/audit-tool.git
